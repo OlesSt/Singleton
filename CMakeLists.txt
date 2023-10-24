@@ -15,6 +15,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 add_executable(Singleton
   main.cpp
   singleton.h
+  singletondatabase.h
 )
 target_link_libraries(Singleton Qt${QT_VERSION_MAJOR}::Core)
 
