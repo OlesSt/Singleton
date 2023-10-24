@@ -1,6 +1,7 @@
 #include <QCoreApplication>
 #include "Singleton.h"
 #include "SingletonDatabase.h"
+#include "Multiton.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +12,9 @@ int main(int argc, char *argv[])
 
     std::cout << "\n===== Singleton as Database =====" << std::endl;
     SingletonDatabase::runSingletonDatabase();
+
+    std::cout << "\n===== Muliton Example =====" << std::endl;
+    Multiton::runMultiton();
 
     return a.exec();
 }

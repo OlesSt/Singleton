@@ -16,6 +16,7 @@ add_executable(Singleton
   main.cpp
   singleton.h
   singletondatabase.h
+  multiton.h
 )
 target_link_libraries(Singleton Qt${QT_VERSION_MAJOR}::Core)
 
